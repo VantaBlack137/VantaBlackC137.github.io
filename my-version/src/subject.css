@@ -1,0 +1,100 @@
+#lista-materii {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-left: 1vw;
+}
+
+.Subject-div {
+  height: 19vw;
+  width: 29vw;
+  margin-top: 2vw;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+}
+
+.Subject-div > .lectie_link {
+  height: inherit;
+  width: inherit;
+}
+
+.lectie_link:hover {
+  text-decoration: none;
+}
+
+.lectie_link > #subjects {
+  height: inherit;
+  width: inherit;
+}
+
+#subjects > #sbj-img {
+  height: inherit;
+  width: inherit;
+  opacity: 60%;
+  border-radius: 2vw;
+  transition: 50ms ease;
+}
+
+#sbj-title {
+  color: white;
+  font-size: 3vw;
+  font-family: "Lobster", cursive;
+  position: relative;
+  text-align: center;
+  top: -12vw;
+  margin: 0;
+
+  transition: 100ms ease;
+}
+
+#subjects:hover #sbj-img {
+  opacity: 100%;
+}
+
+#subjects:hover #sbj-title {
+  font-size: 3.5vw;
+}
+
+@media only screen and (max-width: 700px) {
+  #lista-materii {
+    flex-direction: column;
+    margin: 0;
+  }
+  .Subject-div {
+    height: 60vw;
+    width: 90vw;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .Subject-div > .lectie_link {
+    height: inherit;
+    width: inherit;
+  }
+
+  .lectie_link > #subjects {
+    height: inherit;
+    width: inherit;
+  }
+
+  .Subject-div > #sbj-img {
+    height: inherit;
+    width: inherit;
+    opacity: 60%;
+    border-radius: 2vw;
+  }
+
+  #sbj-title {
+    color: white;
+    font-size: 12vw;
+    font-family: "Lobster", cursive;
+    position: relative;
+    text-align: center;
+    top: -40vw;
+    margin: 0;
+  }
+  #subjects:hover #sbj-title {
+    font-size: 12.5vw;
+  }
+}

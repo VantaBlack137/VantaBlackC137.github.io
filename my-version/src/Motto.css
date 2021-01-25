@@ -1,0 +1,64 @@
+.Motto {
+  background-image: url("./fullpag.jpg");
+  background-size: cover;
+  background-position: 0 -20vw;
+  position: relative;
+  top: 30px;
+}
+
+.motto-text {
+  color: white;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  margin: 1vw;
+  position: relative;
+  top: 15vw;
+  right: 22vw;
+}
+#motto-text1 {
+  font-size: 4vw;
+}
+
+#motto-text2 {
+  font-size: 2vw;
+}
+
+#image {
+  position: relative;
+  left: 57vw;
+  top: -2vw;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 50%;
+  border: white solid 3px;
+}
+
+@media only screen and (max-width: 700px) {
+  .Motto {
+    background-position: 0 0;
+  }
+  .motto-text {
+    text-align: center;
+    margin: 1vw;
+    position: relative;
+    top: 10vw;
+    right: 0;
+  }
+
+  #motto-text1 {
+    font-size: 8vw;
+  }
+
+  #motto-text2 {
+    font-size: 5vw;
+  }
+
+  #image {
+    position: relative;
+    top: 25vw;
+    left: 25vw;
+    height: 50vw;
+    width: 50vw;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,71 @@
+.header {
+  overflow: hidden;
+  background-color: rgb(99, 81, 206) !important;
+  
+  top: -1px;
+  width: 100vw !important;
+  position: fixed;
+  
+}
+
+.bg-dark {
+  width: 100vw !important;
+  background-color: rgb(99, 81, 206) !important;
+}
+
+#title {
+  font-size: 25px;
+  font-family: "Lobster", cursive;
+  opacity: 85%;
+  color: white;
+  text-decoration: none;
+}
+
+#title:hover {
+  opacity: 100%;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.mr-auto {
+  display: inline-flex;
+}
+
+#discord-logo {
+  height: 28px;
+  width: 28px;
+  opacity: 60%;
+
+  transition: 100ms ease;
+}
+#dis-text {
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+#rigth-nav {
+  display: inline-flex;
+}
+#cls {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+#cls-link {
+  text-decoration: none;
+}
+
+#discord-logo:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+#navbar {
+  overflow: hidden;
+}
